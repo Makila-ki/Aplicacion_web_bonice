@@ -1,0 +1,253 @@
+*{
+    font-family: Arial;
+}
+.cuerpesito{
+    background-color: rgba(20, 24, 230, 0.815);
+}
+.cuerpaso{
+    background-color: rgba(57, 59, 179, 0.815);
+}
+div.formulari{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(96, 114, 221, .5);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin:50px auto;
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, .5);
+}
+div.Imanene{
+    width: 45%;
+    background-image:url("./../resources/img/fresa.png"),url("./../resources/img/boni.png"), linear-gradient(rgba(194, 0, 233, 0.836),rgba(0, 16, 233, 0.836));
+    background-size: cover;
+    border-radius: 20px 0px  0px  20px ;
+    margin: left;
+}
+div.Imanene h2{
+    font-size:xxx-large;
+    font-family:cursive !important;
+    text-align: center;
+    color: black;
+}
+.Pregu{
+    width: 55%;
+    background-size: cover;
+    border-radius: 20px 0px  0px  20px ;
+    margin: left;
+}
+h1{
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 5em;
+    color: rgba(0, 0, 0);
+}
+div.Pregu form label{
+display: block;
+padding: 10px;
+text-align: center;
+color: white;
+}
+div.Pregu form input{
+color:rgb(20, 0, 201);
+display: block;
+padding: 10px;
+margin: auto;
+border-radius: 4px;
+
+}
+div.Pregu form label.us{
+    font-size:2em;
+    -webkit-text-stroke-width:1pt;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: #e013be;
+    font-weight: 600;
+    
+
+}
+div.Pregu form input.entrar{
+    margin-top: 20px;
+    width: 50%;
+    background-color: #BE0032;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    transition: all ease 800ms;
+}
+div.Pregu form input.entrar:hover{
+    margin-top: 20px;
+    background-color: #6fd513;
+    width: 52%;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.pepa{
+    float: left;
+    position: fixed;
+    margin: 10px 10px;
+    color: yellow;
+}
+.navegacion{
+    background-color: rgb(0, 162, 255) !important;
+    box-shadow: 10px 10px 10px rgba( 0, 0, 0, .2);
+    color:black;
+}
+.foot{
+    background-color: rgb(0, 162, 255) !important;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.658);
+    color:black;
+}
+.navegacion li:hover{
+    background-color: rgba(231, 18, 196) !important;
+    font-weight: bold;
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+.navegacion li ul{
+    background-color: rgba(0, 110, 255) !important;
+}
+.navegacion li ul li a:hover{
+    background-color: rgba(231, 18, 196, 0.842) !important;
+    -webkit-transform:scale(1.005);
+    transform:scale(1.005);
+    
+
+}
+.acordeon{
+    border-radius: 50px;
+    background-color: rgba(231, 18, 196, 0.842) !important;
+}
+.pie{
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px rgba( 0, 0, 0, .2);
+    color:black;
+}
+div.grafi h3{
+    text-align: center;
+}
+.cerrar{
+    text-align: left;
+    color:black;
+}
+.cerrar:hover{
+    text-align: left;
+    color:rgb(255, 0, 0);
+    -webkit-transform:scale(1.005);
+    transform:scale(1.05);
+}
+.card{
+    margin: 20px;
+    
+}
+.Titulos{
+    color: rgb(255, 255, 255);
+    font-size:3em;
+    text-align: center;
+    margin: 20px auto;
+}
+.Subtitulo{
+    color: rgb(255, 255, 255);
+    font-size:2em;
+    text-align: center;
+    margin: 20px auto;
+}
+.centrifi{
+    width: 100%;
+    margin: 20px auto;
+}
+.Tabla{
+    width: 90%;
+    margin: 10px auto;
+}
+.numme{
+    width: 80px; 
+    text-align: center;
+}
+.formularioo{
+    width: 40%;
+    height: 800px;
+    margin: 20px auto;
+    background-color: rgb(71, 124, 155);
+}
+.formularioo label{
+    margin: 10px 10 px 10px;
+    font-size:larger;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.formularioo input{
+    width: 60%;
+    color:rgb(20, 0, 201);
+    display: block;
+    padding: 10px;
+    margin: auto;
+    border-radius: 4px; 
+}
+.formularioo input.guardar{
+    margin-top: 70px;
+    width: 50%;
+    background-color: #7a7a7a;
+    color: white;
+    font-size: 15px;
+    transition: all ease 800ms;
+}
+.formularioo input.guardar:hover{
+    margin-top: 70px;
+    background-color: #13d51d;
+    width: 52%;
+    color: black;
+    font-weight: 700;
+    
+}
+.formtt{
+    width: 40%;
+    height: 1100px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(71, 124, 155);
+}
+.formtt label{
+    margin: 10px 10 px 10px;
+    font-size:larger;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.forrmtt input{
+    width: 60%;
+    color:rgb(20, 0, 201);
+    display: block;
+    padding: 10px;
+    margin: auto;
+    border-radius: 4px; 
+}
+.formtt input.Guardar{
+    margin-top: 10px;
+    height: 40px;
+    width: 20%;
+    background-color: #7a7a7a;
+    color: white;
+    font-size: 15px;
+    transition: all ease 800ms;
+}
+.formtt input.Guardar:hover{
+    margin-top: 10px;
+    background-color: #13d51d;
+    height: 40px;
+    width: 20%;
+    color: black;
+    font-weight: 700;
+    
+}
+.papani{
+    margin-top: 20px; 
+}
+.cent{
+    margin: 20px auto;
+}
